@@ -1,0 +1,14 @@
+---
+- name: create a file
+  hosts: all
+  become: yes
+  tasks:
+  - name: Create a file
+    file:
+      path: /home/ubuntu/createfile.txt
+      state: touch
+    #copy:
+    # src: /home/ubuntu/run.py
+    # dest: /home/ubuntu/run2.txt
+...
+

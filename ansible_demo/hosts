@@ -1,0 +1,9 @@
+[Servers]
+Centoinstance ansible_ssh_host=15.223.48.233
+Centoinstance1 ansible_ssh_host=15.156.8.1
+
+
+
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3

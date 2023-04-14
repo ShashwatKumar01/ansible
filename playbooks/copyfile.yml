@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+
+  tasks:
+  - name: Copy file to hosts
+    copy:
+      src: /home/ubuntu/demo.txt
+      dest: /home/ubuntu/demo.txt
